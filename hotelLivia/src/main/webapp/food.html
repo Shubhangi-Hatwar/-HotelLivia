@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style >
+	h1 {
+			text-align: center;
+			font-size: 36px;
+		}
+
+	h2 {
+			font-size: 24px;
+		}
+	table {
+			width: 500px;
+		}
+	button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 8px 16px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+</style>
+</head>
+<body>
+	<form action="food" method="post">
+	<div align="center" style="width: 900px; background-color:  #ccffcc; border: 2px solid #ccffcc; padding: 50px;">
+		<h1><u>select your order</u></h1>
+		<h2>staters</h2>
+		<table>
+		<tr><td>Chicken lollypop</td><td>&#8377;160</td><td>Qty <input type="number" name="lolly"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>Crispy Chicken</td><td>&#8377;180</td><td>Qty <input type="number"  name="crispy"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>Chicken manchuria</td><td>&#8377;140</td><td>Qty <input type="number"  name="manchu"  min="1" style="width: 50px;"></td> </tr>
+		</table>
+		<h2>Main Couorse</h2>
+		<table>
+		<tr><td>Chicken Butter Masala</td><td>&#8377;160</td><td>Qty <input type="number"  name="cButter"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>Chicken Biryani</td><td>&#8377;190</td><td>Qty <input type="number"  name="cBiryani"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>Mutton Biryani</td><td>&#8377;210</td><td>Qty <input type="number"  name="mBiryani"  min="1" style="width: 50px;"></td> </tr>
+		</table>
+		<h2>Deserts</h2>
+		<table>
+		<tr><td>Fried Ice Creame</td><td>&#8377;60</td><td>Qty <input type="number"  name="ice"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>Hot Gulab Jamun</td><td>&#8377;50</td><td>Qty <input type="number"  name="gulab"  min="1" style="width: 50px;"></td> </tr>
+		<tr><td>double ka meeta</td><td>&#8377;70</td><td>Qty <input type="number"  name="double"  min="1" style="width: 50px;"></td> </tr>
+		</table>
+		<br>
+		<button >Place Order</button>
+	</div>
+	</form>
+</body>
+</html>
